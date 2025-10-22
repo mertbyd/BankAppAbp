@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "BankApp": {
+      "path": "BankApp.abpmdl.json"
+    }
+  }
+}

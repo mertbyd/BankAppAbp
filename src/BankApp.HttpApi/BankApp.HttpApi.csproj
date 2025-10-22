@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>BankApp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GlobalApiPack.Response" Version="1.0.0" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="7.0.3" />
+    <PackageReference Include="Volo.Abp.OpenIddict.Domain.Shared" Version="7.0.3" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Domain.Identity" Version="7.0.3" />
+    <ProjectReference Include="..\BankApp.Application.Contracts\BankApp.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "BankApp.Domain.Shared": {
+      "path": "src/BankApp.Domain.Shared/BankApp.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "BankApp.Domain": {
+      "path": "src/BankApp.Domain/BankApp.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "BankApp.Application.Contracts": {
+      "path": "src/BankApp.Application.Contracts/BankApp.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "BankApp.Application": {
+      "path": "src/BankApp.Application/BankApp.Application.abppkg.json",
+      "folder": "src"
+    },
+    "BankApp.EntityFrameworkCore": {
+      "path": "src/BankApp.EntityFrameworkCore/BankApp.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "BankApp.MongoDB": {
+      "path": "src/BankApp.MongoDB/BankApp.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "BankApp.HttpApi": {
+      "path": "src/BankApp.HttpApi/BankApp.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "BankApp.HttpApi.Client": {
+      "path": "src/BankApp.HttpApi.Client/BankApp.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "BankApp.TestBase": {
+      "path": "test/BankApp.TestBase/BankApp.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "BankApp.EntityFrameworkCore.Tests": {
+      "path": "test/BankApp.EntityFrameworkCore.Tests/BankApp.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "BankApp.MongoDB.Tests": {
+      "path": "test/BankApp.MongoDB.Tests/BankApp.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "BankApp.Domain.Tests": {
+      "path": "test/BankApp.Domain.Tests/BankApp.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "BankApp.Application.Tests": {
+      "path": "test/BankApp.Application.Tests/BankApp.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "BankApp.HttpApi.Host": {
+      "path": "host/BankApp.HttpApi.Host/BankApp.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "BankApp.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/BankApp.HttpApi.Client.ConsoleTestApp/BankApp.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "BankApp.AuthServer": {
+      "path": "host/BankApp.AuthServer/BankApp.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "BankApp.Host.Shared": {
+      "path": "host/BankApp.Host.Shared/BankApp.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

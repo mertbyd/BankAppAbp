@@ -1,0 +1,59 @@
+{
+  "culture": "en",
+  "texts": {
+
+    "Permission:BankApp": "Bank Application",
+
+
+    "Permission:Customer": "Customer Management",
+    "Permission:Customer.Read": "View Customers",
+    "Permission:Customer.Write": "Create/Update Customers",
+    "Permission:Customer.Delete": "Delete Customers",
+    "Permission:Customer.ViewAll": "View All Customers",
+
+
+    "Permission:Account": "Account Management",
+    "Permission:Account.Read": "View Accounts",
+    "Permission:Account.Write": "Create/Update Accounts",
+    "Permission:Account.Delete": "Delete Accounts",
+    "Permission:Account.Transfer": "Transfer Money",
+
+
+    "Permission:Card": "Card Management",
+    "Permission:Card.Read": "View Cards",
+    "Permission:Card.Write": "Create/Update Cards",
+    "Permission:Card.Delete": "Delete Cards",
+    "Permission:Card.Purchase": "Make Purchase",
+    "Permission:Card.Withdraw": "Withdraw Money",
+    "Permission:Card.Deposit": "Deposit Money",
+
+
+    "Permission:Transaction": "Transaction Management",
+    "Permission:Transaction.Read": "View Transactions",
+    "Permission:Transaction.Write": "Create Transactions",
+    "Permission:Transaction.ViewAll": "View All Transactions",
+
+
+    "Permission:RoleManagement": "Role Management",
+    "Permission:RoleManagement.Create": "Create Roles",
+    "Permission:RoleManagement.Update": "Update Roles",
+    "Permission:RoleManagement.Delete": "Delete Roles",
+    "Permission:RoleManagement.ViewAll": "View All Roles",
+    "Permission:RoleManagement.ManagePermissions": "Manage Role Permissions",
+
+
+    "Permission:UserManagement": "User Management",
+    "Permission:UserManagement.Create": "Create Users",
+    "Permission:UserManagement.Update": "Update Users",
+    "Permission:UserManagement.Delete": "Delete Users",
+    "Permission:UserManagement.ViewAll": "View All Users",
+    "Permission:UserManagement.ManageRoles": "Manage User Roles",
+    "Permission:UserManagement.ManagePermissions": "Manage User Permissions",
+
+
+    "Permission:PermissionManagement": "Permission Management",
+    "Permission:PermissionManagement.Grant": "Grant Permissions",
+    "Permission:PermissionManagement.Revoke": "Revoke Permissions",
+    "Permission:PermissionManagement.ViewAll": "View All Permissions"
+  }
+}
