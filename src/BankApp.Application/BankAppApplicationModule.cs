@@ -21,10 +21,13 @@ public class BankAppApplicationModule : AbpModule
         // HttpClient
         services.AddHttpClient();
         
+        // AutoMapper assembly taraması
         services.AddAutoMapper(typeof(BankAppApplicationModule).Assembly);
+        
+        // ABP AutoMapper configuration - SADECE BİR KEZ!
         Configure<AbpAutoMapperOptions>(options =>
         {
-            options.AddMaps<BankAppApplicationModule>(validate: true);
+            options.AddMaps<BankAppApplicationModule>(validate: false); // false
         });
         
         // ABP ObjectMapper registration

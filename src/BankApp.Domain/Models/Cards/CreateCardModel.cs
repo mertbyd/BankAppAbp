@@ -12,8 +12,7 @@ public class CreateCardModel
     public int ExpiryYear { get; set; }
     public string CVV { get; set; }
     public Guid CustomerId { get; set; }
-    public Guid? AccountId { get; set; }
-    public decimal? CreditLimit { get; set; }
-    public CardStatuses Status { get; set; }
-    public DateTime? CreatedAt { get; set; }
+    public Guid? AccountId { get; set; } // Debit card için gerekli, Credit card için opsiyonel
+    public decimal? CreditLimit { get; set; } // Credit card için gerekli
+    public CardStatuses Status { get; set; } = CardStatuses.Active;
 }
