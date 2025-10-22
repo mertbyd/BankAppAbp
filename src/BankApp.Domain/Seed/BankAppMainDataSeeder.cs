@@ -25,17 +25,9 @@ public class BankAppMainDataSeeder : IDataSeeder, ITransientDependency
         
         try
         {
-            _logger.LogInformation("Starting data seeding...");
-            // Önce Lookup tablolarını seed et
-            _logger.LogInformation("Seeding lookup tables...");
-            await _lookupSeeder.SeedAsync(context);
-            _logger.LogInformation("Lookup tables seeded successfully!");
-            // Sonra Rolleri ve Permission'ları seed et
-            _logger.LogInformation("Seeding roles and permissions...");
-            await _roleSeeder.SeedAsync(context);
-            _logger.LogInformation("Roles and permissions seeded successfully!");
             
-            _logger.LogInformation("All data seeding completed successfully!");
+            await _lookupSeeder.SeedAsync(context);
+            await _roleSeeder.SeedAsync(context);
         }
         catch (Exception ex)
         {

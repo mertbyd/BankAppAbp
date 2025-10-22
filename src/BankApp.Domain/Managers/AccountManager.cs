@@ -68,12 +68,6 @@ public class AccountManager : BaseManager<Account>
         
         // AutoMapper ile güncelleme (sadece izin verilen alanları günceller)
         _mapper.Map(model, existingAccount);
-        
-        // ClosedAt özel durumu (mapper profile'da ignore edilmiş)
-        if (model.ClosedAt.HasValue)
-        {
-            existingAccount.ClosedAt = model.ClosedAt.Value;
-        }
         return existingAccount;
     }
     #region Business Rules
